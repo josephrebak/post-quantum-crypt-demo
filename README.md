@@ -55,12 +55,3 @@ The notebook uses **ML-KEM-512** — the 512-bit security variant — from the [
 | 4 | Bob→Alice | transmit `ciphertext` |
 | 5 | Alice | `ML_KEM_512.decaps(private_key, ciphertext)` → `shared_key` |
 | 6 | — | assert `alice_key == bob_key` ✓ |
-
----
-
-## Further Reading
-
-- [NIST FIPS 203 — ML-KEM Standard](https://csrc.nist.gov/pubs/fips/203/final)
-- [CRYSTALS-Kyber paper](https://pq-crystals.org/kyber/)
-- [kyber-py library](https://github.com/GiacomoPope/kyber-py)
-- [NIST Post-Quantum Cryptography project](https://csrc.nist.gov/projects/post-quantum-cryptography)
