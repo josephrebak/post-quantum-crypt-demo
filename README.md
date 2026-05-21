@@ -1,6 +1,6 @@
 # Post-Quantum Cryptography Demo
 
-A minimal, hands-on demonstration of **ML-KEM** (Module-Lattice-Based Key-Encapsulation Mechanism) — one of NIST's newly standardized post-quantum cryptographic algorithms. This notebook walks through a complete key exchange between two parties using lattice-based cryptography that is secure against attacks from future quantum computers.
+A minimal, pedagogical demonstration of **ML-KEM** (Module-Lattice-Based Key-Encapsulation Mechanism) — one of NIST's newly standardized post-quantum cryptographic algorithms. This notebook walks through a complete key exchange between two parties using lattice-based cryptography that is secure against attacks from future quantum computers. This was part of my final project for EN.625.680 Cryptography at Johns Hopkins.
 
 ---
 
